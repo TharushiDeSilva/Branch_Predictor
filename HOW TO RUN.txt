@@ -1,0 +1,23 @@
+How to run the code
+
+* locate in the source folder.
+* run on the python command line
+>> python branch_predictor.py <branch predictor algorithm number> <name of the trace file in csv format>
+
+eg:
+    python branch_predictor.py 2 12queens.csv
+
+
+Available functions:-----------------------------------
+
+1 . predictor_1_bit
+2 . predictor_2_bit
+3. predictor_2_2
+4. Custom
+
+VALID TRACE FILES ------------------------------------
+
+12queens.csv
+fib30.csv
+matmul.csv
+ray.csv
